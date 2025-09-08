@@ -1,0 +1,160 @@
+body{
+    color: rgb(2, 6, 9);
+    margin: 15px;
+}
+button{
+    color: black;
+}
+
+/* Contact Section */
+#contact {
+    background-color: white;
+    color: rgb(12, 12, 12);
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  #contact h2 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+    font-family: 'Georgia', serif;
+  }
+  
+  #contact p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .contact-form {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .form-group input,
+  .form-group textarea {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #525050;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .form-group input:focus,
+  .form-group textarea:focus {
+    border-color: #4a4f4e;
+    box-shadow: 0 0 5px rgba(71, 79, 78, 0.5);
+    outline: none;
+  }
+  
+  .submit-button {
+    background-color: #20659b;
+    color: white;
+    padding: 0.75rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #545a59;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .contact-form {
+        padding: 1.5rem;
+    }
+  
+    .form-group input,
+    .form-group textarea {
+        font-size: 0.9rem;
+    }
+  
+    .submit-button {
+        font-size: 1.1rem;
+    }
+  }
+
+  /* Footer */
+footer {
+    background-color: #2569ad;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: auto;
+    padding: 1rem;
+}
+
+.footer-content p {
+    margin: 0;
+    padding: 0.5rem 0;
+    font-family: 'Georgia', serif;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.footer-links li {
+    display: inline;
+}
+
+.footer-links a {
+    color: #f8faf9;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #fcfdfd;
+    
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+}

@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    color: aliceblue;
+  }
+  .body {
+    background-color: aliceblue;
+  }
+  header, nav ul, aside ul, main, footer {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    color: #000;
+  }
+  .eligibility,.duration,.fee,.choose,.key,.comm,.after10,.subjects,.scope,.job,.benefits,.area,.pjobs {
+    color: black;
+  }
+  nav ul, aside ul {
+    list-style-type: none;
+  }
+  
+  nav li, aside li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a, aside a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  main {
+    margin-left: 20px; /* Adjust value based on sidebar width */
+  }
+  
+  .admission-highlights, .course-details,.admission-details {
+    margin-top: 20px;
+    background-color: aliceblue;
+    color: black;
+  }
+  
+  table {
+    width: 40%;
+    border-collapse: collapse;
+  }
+
+   .Syllabus {
+    width: 60%;
+    border-collapse: collapse;
+    color: #000;
+  }
+  .syllabus {
+    color: #000;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  th, td {
+    padding: 8px;
+    text-align: left;
+  }
+
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+  
+  

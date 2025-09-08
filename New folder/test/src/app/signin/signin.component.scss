@@ -1,0 +1,87 @@
+body {
+  background-color: #f2f2f2;
+  font-family: Arial, sans-serif;
+  width: 100%;
+
+}
+
+.body {
+  background-color: aliceblue;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: aliceblue;
+}
+
+form {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  max-width: 100%;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+.form-group {
+  margin-bottom: 0px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+section {
+  background-color: aliceblue;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.signup-link,
+.signin-link {
+  margin-top: 20px;
+  text-align: center;
+}
+.head {
+  container: 10%;
+  background-color: aliceblue;
+}
+  .is-invalid {
+    border-color: red;
+  }
+  .invalid-feedback {
+    color: red;
+    font-size: 12px;
+  }
